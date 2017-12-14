@@ -1,4 +1,4 @@
-1- Run  ``` $ composer update ```
+1- Run  ``` $ composer update ``` <br>
 2- Run   ``` $ npm install && npm run dev ```
 3- Create a .env using .env.example 
 4- Run  ``` $ php artisan db:seed ```
