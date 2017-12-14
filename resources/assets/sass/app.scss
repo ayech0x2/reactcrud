@@ -1,0 +1,49 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.cent {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   left: 50%;
+   top: 20%;
+   margin-left: -150px;
+   margin-top: -150px;
+}
+
+.deleteCustomer {
+    top: 10px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.deleteCustomer:hover{
+  color:#fff;
+}
+
+.updateCustomer{
+  position: relative;
+  right: -10px ;
+  cursor: pointer;
+}
+
+.addNewCustomer{
+  position: relative;
+right: -50px;
+transform: scale(1.6);
+cursor: pointer;
+}
+
+.btnOK{
+  margin:10px
+}
+.inputAdd{
+  margin:10px;
+}
